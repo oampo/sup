@@ -9,7 +9,7 @@ addons:
     packages:
     - mongodb-org-server
 before_script:
-- mongod --version
+- sleep 15
 deploy:
     provider: heroku
     app: afternoon-ridge-54801
